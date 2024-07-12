@@ -7,3 +7,36 @@ main {
   background-image: url("../assets/bg-main.jfif");
   background-size: cover;
 }
+
+.comentarios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.comentario {
+  width: 300px;
+  height: 280px;
+  padding: 1rem;
+  border-radius: 16px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.tag {
+  color: #0e3964;
+}
+
+.texto {
+  font-weight: 400;
+}
+
+.comentario img {
+  width: 40px;
+}
